@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="FSI_FreeChart_OJMG" default="default" basedir=".">
+    <description>Actividad 3.7 - JFreeChart y consultas estadisticas.</description>
+    <import file="nbproject/build-impl.xml"/>
+    <target name="-post-jar">
+        <mkdir dir="${dist.dir}/lib"/>
+        <copy todir="${dist.dir}/lib"><fileset dir="lib" includes="*.jar"/></copy>
+    </target>
+</project>
